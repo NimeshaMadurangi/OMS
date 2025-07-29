@@ -1,2 +1,2 @@
-# OFM
-Office Management System (Small ERP)
+# Office Management System
+(Small ERP System)
