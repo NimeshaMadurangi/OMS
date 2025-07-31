@@ -3,25 +3,25 @@ import "./MonthlyChart.css"
 function MonthlyChart() {
   return (
     <div>
-      <div class="stat-card">
-        <div class="stat-card-header">
-          <div class="stat-card-title">Monthly Revenue</div>
-          <div class="menu-wrapper">
-            <input class="menu-toggle" id="menu-toggle" type="checkbox" />
-            <label class="menu-dots" for="menu-toggle">
+      <div className="stat-card">
+        <div className="stat-card-header">
+          <div className="stat-card-title">Monthly Revenue</div>
+          <div className="menu-wrapper">
+            <input className="menu-toggle" id="menu-toggle" type="checkbox" />
+            <label className="menu-dots" for="menu-toggle">
               <span></span>
               <span></span>
               <span></span>
             </label>
-            <div class="menu-select">
+            <div className="menu-select">
               <div>View</div>
               <div>Edit</div>
               <div>Delete</div>
             </div>
           </div>
         </div>
-        <div class="stat-card-chart">
-          <svg class="linechart" viewBox="0 0 360 120">
+        <div className="stat-card-chart">
+          <svg className="linechart" viewBox="0 0 360 120">
             <defs>
               <linearGradient y2="1" x2="0" y1="0" x1="0" id="lineGradient">
                 <stop stop-color="#3d8bff" offset="0%"></stop>
@@ -74,9 +74,9 @@ function MonthlyChart() {
               stroke="url(#lineGradient)"
               fill="none"
             ></polyline>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#3d8bff" r="6" cy="90" cx="15"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -98,9 +98,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#3d8bff" r="6" cy="40" cx="45"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -122,9 +122,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#3d8bff" r="6" cy="60" cx="75"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -146,9 +146,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#3d8bff" r="6" cy="35" cx="105"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -170,9 +170,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#3d8bff" r="6" cy="60" cx="135"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -194,9 +194,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#1ecb6b" r="6" cy="80" cx="165"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -218,9 +218,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#1ecb6b" r="6" cy="60" cx="195"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -242,9 +242,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#1ecb6b" r="6" cy="70" cx="225"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -266,9 +266,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#1ecb6b" r="6" cy="40" cx="255"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -290,9 +290,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#1ecb6b" r="6" cy="60" cx="285"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -314,9 +314,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#1ecb6b" r="6" cy="50" cx="315"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -338,9 +338,9 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g class="dot-group">
+            <g className="dot-group">
               <circle fill="#1ecb6b" r="6" cy="70" cx="345"></circle>
-              <g class="tooltip">
+              <g className="tooltip">
                 <rect
                   opacity="0.92"
                   fill="#232733"
@@ -362,7 +362,7 @@ function MonthlyChart() {
                 </text>
               </g>
             </g>
-            <g fill="#b0b6c3" font-size="12" class="x-labels">
+            <g fill="#b0b6c3" font-size="12" className="x-labels">
               <text text-anchor="middle" y="115" x="15">
                 Jan
               </text>
@@ -402,13 +402,13 @@ function MonthlyChart() {
             </g>
           </svg>
         </div>
-        <div class="stat-card-legend">
-          <div class="legend-item">
-            <span>Avrage monthly sale for every author</span>
+        <div className="stat-card-legend">
+          <div className="legend-item">
+            <span>Average monthly sale for every author</span>
           </div>
-          <div class="legend-item">
-            <span class="legend-value">68.9%</span>
-            <span class="legend-change">▲ 34.5%</span>
+          <div className="legend-item">
+            <span className="legend-value">68.9%</span>
+            <span className="legend-change">▲ 34.5%</span>
           </div>
         </div>
       </div>

@@ -1,14 +1,17 @@
 import "./App.css"
 
-// import Login from "./components/LoginComponent/Login"
-import Dashboard from "./components/DashboardComponent/Dashboard"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Login from "./components/LoginComponent/Login"
+import AppRoutes from "./AppRoutes"
 
 function App() {
   return (
-    <div>
-      {/* <Login /> */}
-      <Dashboard />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<Login />} />
+        <Route path="*" exact element={<AppRoutes />} />
+      </Routes>
+    </Router>
   )
 }
 
