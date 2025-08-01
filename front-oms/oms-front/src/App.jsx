@@ -6,12 +6,14 @@ import AppRoutes from "./AppRoutes"
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" exact element={<Login />} />
-        <Route path="*" exact element={<AppRoutes />} />
-      </Routes>
-    </Router>
+    <div className="bg-container">
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<Login />} />
+          <Route path="*" exact element={<AppRoutes />} />
+        </Routes>
+      </Router>
+    </div>
   )
 }
 
