@@ -24,7 +24,7 @@ function Dashboard() {
         </div>
       </div>
 
-      <div className="dashboard-cards">
+      {/* <div className="dashboard-cards">
         <CountCard />
         <CountCard />
         <CountCard />
@@ -32,7 +32,7 @@ function Dashboard() {
       <div className="monthly-chart">
         <MonthlyChart />
         <MonthlyChart />
-      </div>
+      </div> */}
     </div>
   )
 }
