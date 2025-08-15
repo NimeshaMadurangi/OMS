@@ -1,2 +1,11 @@
 .bg-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.screen-layout {
+  display: flex;
+
+  height: auto;
+  /* margin: 210px 20px 10px 10px; */
 }

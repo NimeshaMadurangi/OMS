@@ -5,6 +5,7 @@
   height: 100vh;
   background-color: #eeeeee;
   color: black;
+  border-radius: 6px;
 }
 
 hr {
