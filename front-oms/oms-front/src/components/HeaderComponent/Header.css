@@ -1,9 +1,9 @@
 .header-wrapper {
-  width: 1100px;
+  width: 1250px;
   height: 100px;
   background-color: #0b453a;
   border-radius: 10px;
-  margin-left: 90px;
+  margin-left: 10px;
 }
 
 .header-content {
@@ -37,31 +37,6 @@
   fill: white;
   flex-shrink: 0;
 }
-
-/* .search-icon {
-  fill: #bdbecb;
-  width: 1rem;
-  height: 1rem;
-  pointer-events: none;
-} */
-
-/* .search-input {
-  flex: 1;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  color: white;
-  padding-left: 28px;
-  font-size: 14px;
-} */
-
-/* .group {
-  display: flex;
-  line-height: 28px;
-  align-items: center;
-  position: relative;
-  max-width: 190px;
-} */
 
 .search-input {
   flex: 1;
