@@ -1,20 +1,25 @@
 import { Routes, Route } from "react-router-dom"
 
 import SidebarPanel from "./components/SidebarPanel/SidebarPanel"
-import DashboardPage from "./pages/DashboardPage/DashboardPage"
 import Header from "./components/HeaderComponent/Header"
+
+import DashboardPage from "./pages/DashboardPage/DashboardPage"
+import User from "./pages/UserPage/User"
 
 function AppRoutes() {
   return (
     <div className="bg-container">
       <div className="screen-layout">
         <SidebarPanel />
-        <Header />
-        <Routes>
-          <Route>
-            <Route path="/dashboard" exact element={<DashboardPage />} />
-          </Route>
-        </Routes>
+        <div className="body-wrapper">
+          <Header />
+          <Routes>
+            <Route>
+              <Route path="/dashboard" exact element={<DashboardPage />} />
+              <Route path="/user-management" exact element={<User />} />
+            </Route>
+          </Routes>
+        </div>
       </div>
     </div>
   )

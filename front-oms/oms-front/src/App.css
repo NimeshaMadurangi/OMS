@@ -3,9 +3,13 @@
   min-height: 100vh;
 }
 
+.body-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 25px;
+  gap: 25px;
+}
 .screen-layout {
   display: flex;
-
   height: auto;
-  /* margin: 210px 20px 10px 10px; */
 }
