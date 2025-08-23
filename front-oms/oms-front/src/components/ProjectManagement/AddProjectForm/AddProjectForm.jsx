@@ -1,24 +1,8 @@
-import { Form } from "react-router-dom"
-import "./AddEmployee.css"
+import "./AddProjectForm.css"
 
 import { CiImageOn } from "react-icons/ci"
 
-// const focusOnError = createDecorator()
-
-function AddEmployee() {
-  // const optionsExp = [
-  //   { value: "1", label: "1 Y" },
-  //   { value: "2", label: "2 Y" },
-  //   { value: "3", label: "3 Y" },
-  //   { value: "4", label: "4 Y" },
-  //   { value: "5", label: "5 Y" },
-  //   { value: "6", label: "6 Y" },
-  //   { value: "7", label: "7 Y" },
-  //   { value: "8", label: "8 Y" },
-  //   { value: "9", label: "9 Y" },
-  //   { value: "10", label: "10 Y" },
-  // ]
-
+function AddProjectForm() {
   return (
     <div className="common-form-component">
       <form className="employee-form">
@@ -33,17 +17,17 @@ function AddEmployee() {
 
         <div className="column form-column">
           <div className="form-group">
-            <label>Full Name*</label>
+            <label>Project Name*</label>
             <input type="text" placeholder="Enter Name" />
           </div>
 
           <div className="form-row">
             <div className="form-group">
-              <label>National ID</label>
+              <label>Customer Name</label>
               <input type="text" placeholder="National ID" />
             </div>
             <div className="form-group">
-              <label>Employee role</label>
+              <label>Type</label>
               <select>
                 <option value="">Select</option>
               </select>
@@ -52,7 +36,7 @@ function AddEmployee() {
 
           <div className="form-row">
             <div className="form-group">
-              <label>Date of join</label>
+              <label>Date of Start</label>
               <input type="date" />
             </div>
             <div className="form-group">
@@ -108,6 +92,7 @@ function AddEmployee() {
         </div>
       </form>
 
+      {/* Buttons Row */}
       <div className="form-actions">
         <button type="reset" className="reset-btn">
           ⟳ Reset
@@ -120,4 +105,4 @@ function AddEmployee() {
   )
 }
 
-export default AddEmployee
+export default AddProjectForm

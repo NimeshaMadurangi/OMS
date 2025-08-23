@@ -5,6 +5,7 @@ import Header from "./components/HeaderComponent/Header"
 
 import DashboardPage from "./pages/DashboardPage/DashboardPage"
 import User from "./pages/UserPage/User"
+import Project from "./pages/ProjectPage/Project"
 
 function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
             <Route>
               <Route path="/dashboard" exact element={<DashboardPage />} />
               <Route path="/user-management" exact element={<User />} />
+              <Route path="/project-management" exact element={<Project />} />
             </Route>
           </Routes>
         </div>

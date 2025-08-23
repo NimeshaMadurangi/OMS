@@ -1,7 +1,7 @@
-import { useNavigate } from "react-router-dom"
 import "./Login.css"
+import Logo from "../../images/logo.png"
 
-import Waiting from "../WaitingHelix/Waiting"
+import { useNavigate } from "react-router-dom"
 
 function Login() {
   const navigate = useNavigate()
@@ -9,8 +9,10 @@ function Login() {
   return (
     <div className="login-page">
       <div className="left-section">
-        <h1 className="brand-title">OFM</h1>
-        <Waiting />
+        <img src={Logo} alt="OFM Logo" />
+        <h4 className="brand-title">
+          Empower growth – Driving innovation and success together
+        </h4>
       </div>
       <div className="login-container">
         <form className="form">
