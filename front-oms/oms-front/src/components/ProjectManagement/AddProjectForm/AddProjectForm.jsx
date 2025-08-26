@@ -6,14 +6,14 @@ function AddProjectForm() {
   return (
     <div className="common-form-component">
       <form className="employee-form">
-        <div className="column image-column">
+        {/* <div className="column image-column">
           <label htmlFor="file-input" className="image-placeholder">
             <span role="img" aria-label="upload">
               <CiImageOn />
             </span>
           </label>
           <input id="file-input" type="file" hidden />
-        </div>
+        </div> */}
 
         <div className="column form-column">
           <div className="form-group">
@@ -65,19 +65,19 @@ function AddProjectForm() {
 
         <div className="column form-column">
           <div className="form-group">
-            <label>Home Address</label>
+            <label>Address</label>
             <input type="text" placeholder="Home address" />
           </div>
 
           <div className="form-group">
-            <label>Education</label>
+            <label>Developers</label>
             <select>
               <option value="">Select</option>
             </select>
           </div>
 
           <div className="form-group">
-            <label>Working Experience</label>
+            <label>Tech Stack</label>
             <select>
               <option value="">Select</option>
             </select>
